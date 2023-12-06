@@ -1,0 +1,187 @@
+Alogrithm name, its accuracy and its excution time
+==================================================
+DecisionTree: ('86.20689655172413%', '0.3809943199157715')
+RandomForest: ('82.75862068965517%', '7.004970073699951')
+NaiveBayes: ('72.41379310344827%', '0.4857945442199707')
+LinearRegression: ('73.95833333333334%', '0.07260322570800781')
+QuadraticDiscriminantAnalysis: ('63.541666666666664%', '0.43226170539855957')
+
+Algorithm name: Decision Tree
+==================================================
+1   sex_2           0.23121846051650036
+2   school_2        0.21280880953308307
+3   sex_1           0.20010730679813743
+4   address_1       0.15993504224195537
+5   school_1        0.13034539583901333
+6   age             0.06558498507131057
+
+
+Algorithm name: Random Forest
+==================================================
+1   goout           0.06696857204194445
+2   absences        0.061711228072060254
+3   Fedu            0.050066706300062276
+4   age             0.04397994826491555
+5   failures        0.04250491456590834
+6   Medu            0.041173260569760436
+7   higher_1        0.03708491662291821
+8   school_1        0.035162811920468454
+9   health          0.031588172463697065
+10  higher_2        0.03135071588539102
+
+
+Algorithm name: Naive Bayes
+==================================================
+1   nursery_1       0.039583333333333394
+2   nursery_2       0.039583333333333394
+3   famsup_1        0.02916666666666663
+4   famsup_2        0.02916666666666663
+5   Mjob_4          0.022916666666666606
+6   freetime        0.018749999999999933
+7   traveltime      0.01666666666666672
+8   romantic_1      0.014583333333333304
+9   studytime       0.014583333333333282
+10  failures        0.014583333333333282
+
+
+Algorithm name: Linear Regression
+==================================================
+1   Medu            0.06010489510489521
+2   Fedu            0.05590909090909102
+3   age             0.03671328671328669
+4   goout           0.03531468531468534
+5   absences        0.032902097902097846
+6   studytime       0.032622377622377595
+7   failures        0.030944055944055925
+8   higher_1        0.023846153846153822
+9   address_1       0.023636363636363653
+10  romantic_1      0.022832167832167863
+
+
+Algorithm name: Quadratic Discriminant Analysis
+==================================================
+1   activities_1    0.4104166666666667
+2   activities_2    0.4104166666666667
+3   Fjob_2          0.3854166666666667
+4   famsup_1        0.3854166666666667
+5   famsup_2        0.3854166666666667
+6   Mjob_1          0.38541666666666663
+7   romantic_1      0.38125        
+8   romantic_2      0.38125        
+9   reason_3        0.3791666666666667
+10  sex_1           0.3625         
+
+
+Feature Mapping
+==================================================
+age: 3
+failures: 3
+romantic_1: 3
+sex_1: 2
+address_1: 2
+school_1: 2
+goout: 2
+absences: 2
+Fedu: 2
+Medu: 2
+higher_1: 2
+famsup_1: 2
+famsup_2: 2
+studytime: 2
+sex_2: 1
+school_2: 1
+health: 1
+higher_2: 1
+nursery_1: 1
+nursery_2: 1
+Mjob_4: 1
+freetime: 1
+traveltime: 1
+activities_1: 1
+activities_2: 1
+Fjob_2: 1
+Mjob_1: 1
+romantic_2: 1
+reason_3: 1
+
+
+Feature Mapping
+==================================================
+{'col': 'school', 'mapping':     school_1  school_2
+ 1         1         0
+ 2         0         1
+-1         0         0
+-2         0         0}{'col': 'sex', 'mapping':     sex_1  sex_2
+ 1      1      0
+ 2      0      1
+-1      0      0
+-2      0      0}{'col': 'address', 'mapping':     address_1  address_2
+ 1          1          0
+ 2          0          1
+-1          0          0
+-2          0          0}{'col': 'famsize', 'mapping':     famsize_1  famsize_2
+ 1          1          0
+ 2          0          1
+-1          0          0
+-2          0          0}{'col': 'Pstatus', 'mapping':     Pstatus_1  Pstatus_2
+ 1          1          0
+ 2          0          1
+-1          0          0
+-2          0          0}{'col': 'Mjob', 'mapping':     Mjob_1  Mjob_2  Mjob_3  Mjob_4  Mjob_5
+ 1       1       0       0       0       0
+ 2       0       1       0       0       0
+ 3       0       0       1       0       0
+ 4       0       0       0       1       0
+ 5       0       0       0       0       1
+-1       0       0       0       0       0
+-2       0       0       0       0       0}{'col': 'Fjob', 'mapping':     Fjob_1  Fjob_2  Fjob_3  Fjob_4  Fjob_5
+ 1       1       0       0       0       0
+ 2       0       1       0       0       0
+ 3       0       0       1       0       0
+ 4       0       0       0       1       0
+ 5       0       0       0       0       1
+-1       0       0       0       0       0
+-2       0       0       0       0       0}{'col': 'reason', 'mapping':     reason_1  reason_2  reason_3  reason_4
+ 1         1         0         0         0
+ 2         0         1         0         0
+ 3         0         0         1         0
+ 4         0         0         0         1
+-1         0         0         0         0
+-2         0         0         0         0}{'col': 'guardian', 'mapping':     guardian_1  guardian_2  guardian_3
+ 1           1           0           0
+ 2           0           1           0
+ 3           0           0           1
+-1           0           0           0
+-2           0           0           0}{'col': 'schoolsup', 'mapping':     schoolsup_1  schoolsup_2
+ 1            1            0
+ 2            0            1
+-1            0            0
+-2            0            0}{'col': 'famsup', 'mapping':     famsup_1  famsup_2
+ 1         1         0
+ 2         0         1
+-1         0         0
+-2         0         0}{'col': 'paid', 'mapping':     paid_1  paid_2
+ 1       1       0
+ 2       0       1
+-1       0       0
+-2       0       0}{'col': 'activities', 'mapping':     activities_1  activities_2
+ 1             1             0
+ 2             0             1
+-1             0             0
+-2             0             0}{'col': 'nursery', 'mapping':     nursery_1  nursery_2
+ 1          1          0
+ 2          0          1
+-1          0          0
+-2          0          0}{'col': 'higher', 'mapping':     higher_1  higher_2
+ 1         1         0
+ 2         0         1
+-1         0         0
+-2         0         0}{'col': 'internet', 'mapping':     internet_1  internet_2
+ 1           1           0
+ 2           0           1
+-1           0           0
+-2           0           0}{'col': 'romantic', 'mapping':     romantic_1  romantic_2
+ 1           1           0
+ 2           0           1
+-1           0           0
+-2           0           0}

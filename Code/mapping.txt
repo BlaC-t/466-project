@@ -1,0 +1,78 @@
+{'col': 'school', 'mapping':     school_1  school_2
+ 1         1         0
+ 2         0         1
+-1         0         0
+-2         0         0}{'col': 'sex', 'mapping':     sex_1  sex_2
+ 1      1      0
+ 2      0      1
+-1      0      0
+-2      0      0}{'col': 'address', 'mapping':     address_1  address_2
+ 1          1          0
+ 2          0          1
+-1          0          0
+-2          0          0}{'col': 'famsize', 'mapping':     famsize_1  famsize_2
+ 1          1          0
+ 2          0          1
+-1          0          0
+-2          0          0}{'col': 'Pstatus', 'mapping':     Pstatus_1  Pstatus_2
+ 1          1          0
+ 2          0          1
+-1          0          0
+-2          0          0}{'col': 'Mjob', 'mapping':     Mjob_1  Mjob_2  Mjob_3  Mjob_4  Mjob_5
+ 1       1       0       0       0       0
+ 2       0       1       0       0       0
+ 3       0       0       1       0       0
+ 4       0       0       0       1       0
+ 5       0       0       0       0       1
+-1       0       0       0       0       0
+-2       0       0       0       0       0}{'col': 'Fjob', 'mapping':     Fjob_1  Fjob_2  Fjob_3  Fjob_4  Fjob_5
+ 1       1       0       0       0       0
+ 2       0       1       0       0       0
+ 3       0       0       1       0       0
+ 4       0       0       0       1       0
+ 5       0       0       0       0       1
+-1       0       0       0       0       0
+-2       0       0       0       0       0}{'col': 'reason', 'mapping':     reason_1  reason_2  reason_3  reason_4
+ 1         1         0         0         0
+ 2         0         1         0         0
+ 3         0         0         1         0
+ 4         0         0         0         1
+-1         0         0         0         0
+-2         0         0         0         0}{'col': 'guardian', 'mapping':     guardian_1  guardian_2  guardian_3
+ 1           1           0           0
+ 2           0           1           0
+ 3           0           0           1
+-1           0           0           0
+-2           0           0           0}{'col': 'schoolsup', 'mapping':     schoolsup_1  schoolsup_2
+ 1            1            0
+ 2            0            1
+-1            0            0
+-2            0            0}{'col': 'famsup', 'mapping':     famsup_1  famsup_2
+ 1         1         0
+ 2         0         1
+-1         0         0
+-2         0         0}{'col': 'paid', 'mapping':     paid_1  paid_2
+ 1       1       0
+ 2       0       1
+-1       0       0
+-2       0       0}{'col': 'activities', 'mapping':     activities_1  activities_2
+ 1             1             0
+ 2             0             1
+-1             0             0
+-2             0             0}{'col': 'nursery', 'mapping':     nursery_1  nursery_2
+ 1          1          0
+ 2          0          1
+-1          0          0
+-2          0          0}{'col': 'higher', 'mapping':     higher_1  higher_2
+ 1         1         0
+ 2         0         1
+-1         0         0
+-2         0         0}{'col': 'internet', 'mapping':     internet_1  internet_2
+ 1           1           0
+ 2           0           1
+-1           0           0
+-2           0           0}{'col': 'romantic', 'mapping':     romantic_1  romantic_2
+ 1           1           0
+ 2           0           1
+-1           0           0
+-2           0           0}
